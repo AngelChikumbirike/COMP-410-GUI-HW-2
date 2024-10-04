@@ -1,0 +1,134 @@
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+title{
+	border-style: solid;
+	border-width: 10px;
+	
+}
+body {
+	background-image: url("ptrbackground.jpg");
+	padding-left: 80px;
+	padding-right: 80px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color:#00569f ;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	border-style: none;
+}
+#wrapper nav{
+	width: 200px;
+	float: left;
+	background-color: #bdd7f3;
+    padding: 20px 10px 603.5px 20px;
+    text-align: left;
+	margin: 0;
+}
+span:first-of-type {
+	color: #0f73d8;
+}
+nav ul {
+	font-size: 1.2em;
+	list-style: none;
+}
+nav li{
+	display: block;
+}
+nav ul li a {
+	text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+nav a:visited {
+	color: #344873;
+}
+nav a:hover {
+	color: #FFFFFF;
+}
+h2 {
+	color: #3399CC;
+	padding-left: 0%;
+}
+h1,
+h2 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+#contact {
+	font-size: 90%;
+	
+		margin-top: 20px;
+		line-height: 1.5;
+}
+
+footer {
+	font-family: Georgia, "Times New Roman", serif;
+    text-align: center;  
+}
+#wrapper {
+   width: 80%;
+    margin: 50px 100px 100px 100px ;
+    background-color: #fff;
+    border: 1px solid;
+    box-shadow: 0 0 10px rgba(241, 239, 239, 0);
+	display: block;
+}
+#content {
+    padding: 20px;
+	width: 70%;
+    float: right;
+}
+#content h2 {
+    font-size: 1.8em;
+    color: #0f73d8;
+    margin-bottom: 10px;
+}
+#content img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-bottom: 20px;	
+}
+#content ul {
+    list-style-type: none;
+    margin-top: 10px;
+    padding-left: 0;
+}
+#content ul li{
+background: url("marker.gif") no-repeat left center;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+  #content{
+	flex: 80%;
+  }
+
+ h1 {
+	
+	margin:  0;
+	padding: 10px 0px 10px 10px;
+	color: #fff;
+	background-image: url("sunset.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 56px;
+}
+footer{
+	display: block;
+clear: both;
+float:none;
+    text-align: center;
+    padding: 10px 0;  
+	margin: 0px 0 0;
+}
+
+#content img{
+	width: 50%; /* Makes the image take the full width of its parent */
+    height: auto; /* Maintains aspect ratio */
+    max-width: 600px; 
+	padding-left: 0px;
+}
+#wrapper nav, footer{
+	display: inline-flex;
+}
